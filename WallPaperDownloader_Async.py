@@ -8,7 +8,7 @@ try:
 except ImportError as e:
     print("Installing dependencies...")
     import os
-    os.system("pip install requests bs4 logging")
+    os.system("pip install aiohttp requests bs4 logging")
     import asyncio
     import logging
     import requests
